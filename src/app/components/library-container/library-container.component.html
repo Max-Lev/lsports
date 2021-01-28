@@ -1,0 +1,21 @@
+<form [formGroup]="bookForm">
+    <app-add-book-title [form]="bookForm" [title]="'title'"></app-add-book-title>
+
+    <section class="container">
+        <section class="books-wrapper">
+            <app-books-list (filterEmitter)="filterAction($event)" [booksList]="booksList"></app-books-list>
+        </section>
+
+        <section class="book-image-wrapper p-col-4 p-md-4">
+            <ng-container *ngIf="booksList[0]!==undefined">
+                <img [src]="booksList[0].coverPhoto" />
+            </ng-container>
+        </section>
+
+        <section class="books-wrapper">
+            <app-book-details [form]="bookForm"></app-book-details>
+        </section>
+    </section>
+
+
+</form>

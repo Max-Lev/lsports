@@ -1,0 +1,42 @@
+[
+    {
+        "author": "Chinua Achebe",
+        "country": "Nigeria",
+        "coverPhoto": "https://raw.githubusercontent.com/benoitvallon/100-best-books/master/static/images/a-Dolls-house.jpg",
+        "bookName": "English",
+        "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
+        "catalogNumber": 209,
+        "title": "Things Fall Apart",
+        "publicationDate": 1958
+    },
+    {
+        "author": "Hans Christian Andersen",
+        "country": "Denmark",
+        "coverPhoto": "https://raw.githubusercontent.com/benoitvallon/100-best-books/master/static/images/a-la-recherche-du-temps-perdu.jpg",
+        "bookName": "Danish",
+        "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+        "catalogNumber": 784,
+        "title": "Fairy tales",
+        "publicationDate": 1836
+    },
+    {
+        "author": "Dante Alighieri",
+        "country": "Italy",
+        "coverPhoto": "https://raw.githubusercontent.com/benoitvallon/100-best-books/master/static/images/absalom-absalom.jpg",
+        "bookName": "Italian",
+        "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
+        "catalogNumber": 928,
+        "title": "The Divine Comedy",
+        "publicationDate": 1315
+    },
+    {
+        "author": "Unknown",
+        "country": "Sumer and Akkadian Empire",
+        "coverPhoto": "https://raw.githubusercontent.com/benoitvallon/100-best-books/master/static/images/a-Dolls-house.jpg",
+        "bookName": "Akkadian",
+        "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
+        "catalogNumber": 160,
+        "title": "The Epic Of Gilgamesh",
+        "publicationDate": -1700
+    }
+]

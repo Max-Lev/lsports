@@ -1,0 +1,19 @@
+<div class="p-grid">
+
+    <div class="p-col-12">
+        <div class="p-inputgroup">
+            <input (keyup)="onKey($event)" type="text" pInputText placeholder="Filter By Name">
+            <span class="p-inputgroup-addon"><i class="pi pi-tags" style="line-height: 1.25;"></i></span>
+        </div>
+    </div>
+
+</div>
+
+<ng-container *ngFor="let book of booksList">
+
+    <div class="book p-col-12">
+        <span>{{book.bookName}}, {{book.author}}</span>
+        <button type="button" pButton pRipple label="X"></button>
+    </div>
+
+</ng-container>

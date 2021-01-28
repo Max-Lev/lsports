@@ -1,0 +1,8 @@
+<form [formGroup]="form" class="p-grid p-fluid p-col-12">
+    <div class="p-col-12 p-md-12">
+        <div class="p-inputgroup">
+            <button (click)="addTitle()" type="button" pButton pRipple label="Add"></button>
+            <input formControlName="title" type="text" pInputText placeholder="Title">
+        </div>
+    </div>
+</form>

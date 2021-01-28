@@ -1,0 +1,24 @@
+<form [formGroup]="form" class="p-grid p-fluid p-col-12">
+    <div class="p-col-12 p-md-12">
+
+        <div class="p-inputgroup">
+            <input formControlName="bookName" type="text" pInputText placeholder="Book Name">
+        </div>
+
+        <div class="p-inputgroup">
+            <input formControlName="author" type="text" pInputText placeholder="Author">
+        </div>
+        <div class="p-inputgroup">
+            <input formControlName="catalogNumber" type="text" pInputText placeholder="Catalog Id">
+        </div>
+        <div class="p-inputgroup">
+            <input formControlName="publicationDate" type="text" pInputText placeholder="Publish Date">
+        </div>
+        <div class="p-inputgroup">
+            <input formControlName="coverPhoto" type="text" pInputText placeholder="Cover Url">
+        </div>
+
+        <p-button label="Submit" icon="pi pi-check"></p-button>
+    </div>
+
+</form>
